@@ -27,6 +27,10 @@ table th,td{
 .intro img{
     width: 50%;
     max-width: 300px;
+    border-radius: 50%;
+    width:auto;
+    height: auto;
+    background-size: cover;
 }
 
 
@@ -49,6 +53,7 @@ table th,td{
     padding: 10px;
     margin: 10px ;
 }
+
 
 footer{
     background-color: rgba(0, 0, 0, 0.667);
