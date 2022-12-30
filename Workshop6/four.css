@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@300;400&display=swap');
+
+*{
+    margin: 0px;
+    color: white;
+    font-size: 50px;
+    background-color:rgb(142, 180, 46) ;
+    font-family: 'Andika', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.left{
+    height: 100%;
+    flex: 1;
+}
+.right{
+    margin-top:100px;
+    padding-left: 80px;
+    flex:1;
+}
+h1{
+    margin-bottom: 300px;
+    font-size: larger;
+}
+img{
+    width: 100%;
+    height:840px;
+    object-fit: cover;
+}
+p{
+    font-size: smaller;
+    line-height: 1.3em;
+}
+
+@media screen and (max-width: 900px) {
+    *{
+        font-size: 30px;
+    }
+    .container{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .right{
+        padding-left: 20px;
+    }
+    h1{
+        margin-bottom: 50px;
+    }
+    img{
+        width: 100%;
+        height:500px;
+        object-fit: cover;
+    }
+}
