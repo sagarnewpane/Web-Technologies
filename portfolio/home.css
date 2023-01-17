@@ -1,0 +1,17 @@
+*{
+    color: white;
+
+}
+.content{
+    padding: 150px;
+}
+
+h1{
+    font-size: 60px;
+}
+.role{
+    font-size: 90px;
+}
+p{
+    font-size: 30px;
+}

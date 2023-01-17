@@ -5,12 +5,20 @@
 header{
     display: flex;
     justify-content: space-around;
+    background-color: rgba(0,0,0,0.1);
+    padding: 15px;
 }
 header a,footer a{
     margin: 40px;
     text-decoration: none;  
+    color: white;
      
 }
 header li{
     display: inline;
 }
+
+body{
+    background-image: url('bg.jpg');
+}
+
