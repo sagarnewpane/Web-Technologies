@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+img{
+
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: black;
+}
