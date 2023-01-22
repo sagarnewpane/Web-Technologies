@@ -1,24 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #24252A;
 }
+li,a{
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
 header{
     display: flex;
-    justify-content: space-around;
-    background-color: rgba(0,0,0,0.1);
-    padding: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    
 }
-header a,footer a{
-    margin: 40px;
-    text-decoration: none;  
-    color: white;
-     
+.logo{
+    cursor: pointer;
+    color: aliceblue;
+    margin-right: auto;
 }
-header li{
-    display: inline;
-}
-
-body{
-    background-image: url('bg.jpg');
+.logo span{
+    color: rgb(235, 50, 17);
 }
 
+.nav_links{
+    list-style: none;
+    
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: rgb(235, 50, 17);
+}
+.contact button{
+    margin-left: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 9px 25px;
+    background-color: rgb(235, 50, 17);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.contact button:hover{
+    background-color: rgba(235, 50, 17,.4);
+    color: rgba(255, 255, 255, 0.4);
+}

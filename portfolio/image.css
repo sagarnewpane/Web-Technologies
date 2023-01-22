@@ -8,9 +8,10 @@
     justify-content:center;
 }
 img{
-
+    
     max-width: 30%;
     margin: 10px;
     border-radius: 15px;
     box-shadow: black;
+    margin-top: 0px;
 }
