@@ -1,9 +1,10 @@
-*{
-    color: white;
-
+.content{
+    background-color: #0227e2;
+    height: 90vh;
 }
 .content{
     padding: 150px;
+    color: aliceblue;
 }
 
 h1{
@@ -12,6 +13,6 @@ h1{
 .role{
     font-size: 90px;
 }
-p{
+.desc{
     font-size: 30px;
 }
