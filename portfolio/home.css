@@ -1,10 +1,16 @@
+body{
+    background: rgb(255,162,0);
+    background: linear-gradient(32deg, rgba(255,162,0,1) 0%, rgba(223,5,5,1) 35%, rgba(2,0,36,1) 85%);
+}
+
 .content{
-    background-color: #0227e2;
-    height: 90vh;
+    height: 50vh;
 }
 .content{
     padding: 150px;
     color: aliceblue;
+    /* background: rgb(0,212,255);
+    background: linear-gradient(32deg, rgba(0,212,255,1) 0%, rgba(5,5,223,1) 48%, rgba(2,0,36,1) 85%); */
 }
 
 h1{
