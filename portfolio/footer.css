@@ -44,10 +44,10 @@ ul{
     margin-bottom: 20px;
     }
 
-ion-icon{
+.social ion-icon{
     font-size: 2.3em;
 }
-ion-icon:hover{
+.social ion-icon:hover{
     color: rgb(235, 50, 17);
     cursor: pointer;
     transition: 0.2s ease 0s;

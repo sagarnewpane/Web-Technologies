@@ -1,8 +1,8 @@
 body{
-    background: rgb(255,162,0);
-    background: linear-gradient(32deg, rgba(255,162,0,1) 0%, rgba(223,5,5,1) 35%, rgba(2,0,36,1) 85%);
-
+    background: rgb(230,10,10);
+    background: linear-gradient(32deg, rgba(230,10,10,1) 36%, rgba(16,10,98,1) 100%);
 }
+
 .content{
     margin: 20px 10px;
     display: flex;
@@ -25,9 +25,10 @@ body{
     border-radius: 5px;
 }
 .content .images img:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: all 0.3s ease 0s;
 }
+
 .content .image-popup{
     position: fixed;
     top: 0; left: 0;
@@ -46,11 +47,49 @@ body{
     object-fit: cover;
 }
 
-.content .image-popup span{
+.exit{
     position: absolute;
-    top: 0; right: 10px;
-    font-size: 40px;
+    background: none;
+    border: none;
+    top: 25px; right: 25px;
+    font-size: 45px;
     color: aliceblue;
     cursor: pointer;
     z-index: 100;
+}
+.left{
+    position: fixed;
+    top: 47%; left : 30px;
+}
+
+.right{
+    position: fixed;
+    top: 47%; right : 30px;
+}
+.left,.right{
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    background:none;
+    font-size: 45px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.left:hover{
+    color: rgb(235, 50, 17);
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+    transform: translateX(-5px);
+}
+.right:hover{
+    color: rgb(235, 50, 17);
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+    transform: translateX(5px);
+}
+.exit:hover{
+    color: rgb(235, 50, 17);
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+    transform: translateX(5px);
 }
