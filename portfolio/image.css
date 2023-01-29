@@ -25,7 +25,7 @@ body{
     border-radius: 5px;
 }
 .content .images img:hover{
-    transform: scale(1.02);
+    transform: scale(1.05);
     transition: all 0.3s ease 0s;
 }
 

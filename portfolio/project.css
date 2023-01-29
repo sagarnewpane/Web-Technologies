@@ -1,0 +1,25 @@
+body{
+    background: rgb(230,10,10);
+    background: linear-gradient(32deg, rgba(230,10,10,1) 36%, rgba(16,10,98,1) 100%);
+}
+.project-container{
+    background-color: rgba(245, 58, 25, 0.404);
+}
+.project {
+    padding: 100px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    height: 40vh;
+}
+.project .p-img {
+    grid-column: 3;
+    width: 100%;
+    /* background-color: black; */
+}
+.p-img,.name-desc{
+    padding-right: 50px;
+    grid-column: span 2;
+}
+.project .p-img img{
+    width: 100%;
+}

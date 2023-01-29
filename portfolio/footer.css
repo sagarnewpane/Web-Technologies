@@ -2,7 +2,6 @@ footer{
     color: white;
     padding: 15px;
     width: auto;
-    /* background-color: #24252A; */
     background-color: rgba(36,37,42,0.6);
     display: flex;
     flex-direction: column;

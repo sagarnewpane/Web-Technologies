@@ -7,6 +7,7 @@ images.forEach((image, index) => {
         currentIndex = index;
         document.querySelector('.image-popup').style.display = 'block';
         document.querySelector('.image-popup img').src = image.getAttribute('src');
+        
     }
 });
 // Add click event to close button
