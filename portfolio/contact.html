@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="image.css">
     <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -22,26 +19,28 @@
             <li><a href="project.html">Projects</a></li>
             <li><a href="#">References</a></li>
         </ul>
-        <a class="contact" href="contact.html"><button>Contact</button></a>
+        <a class="contact" href="concact.html"><button>Contact</button></a>
     </header>
 
+    <h1>How to contact Sagar..</h1>
     <div class="content">
-        <div class="images">
-            <img src="bg.jpg" alt="" srcset="">
-            <img src="bg.jpg" alt="" srcset="">
-            <img src="bg.jpg" alt="" srcset="">
-            <img src="bg1.jpeg" alt="" srcset="">
-            <img src="bg1.jpeg" alt="" srcset="">
-            <img src="bg1.jpeg" alt="" srcset="">
-            <img src="bg.jpg" alt="" srcset="">
-        </div>
-        <div class="image-popup" style="display: none;">
-            <button class="exit"><ion-icon name="exit-outline"></ion-icon></button>
-            <img src="bg.jpg" alt="" srcset="">
-            <button class="right"><ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
-            <button class="left"><ion-icon name="arrow-back-circle-outline"></ion-icon></button>
+        <div class="link">
+            <ul>
+                <li id="github"><p>Github</p></li>
+                <li id="linkedin"><p>LinkedIn</p></li>
+                <li id="whatsapp"><p>WhatsApp</p></li>
+                <li id="email"><p>Email</p></li>
+            </ul>
         </div>
 
+        <div class="link-logo">
+            <a href=""><img src="" alt=""></a>
+            <p class="click-msg"></p>
+            <p class="custom-text"></p>
+
+            
+        </div>
+        
     </div>
 
     <footer>
@@ -87,9 +86,9 @@
         </div>
         <p class="copyright">&copy Copyright All rights reserved.</p>
     </footer>
-    <script src="image.js"></script>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="contact.js"></script>
 </body>
 </html>
