@@ -7,22 +7,26 @@
     <title>Site</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <header>
+    <header class="sticky">
         <h2 class="logo">Sagar <span>Newpane</span></h2>
-        <ul class="nav_links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="image.html">Images</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="#">References</a></li>
-        </ul>
-        <a class="contact" href="contact.html"><button>Contact</button></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="image.html">Images</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="#">References</a></li>
+            </ul>
+            <a class="contact" href="contact.html"><button>Contact</button></a>
+        </nav>
+        
     </header>
 
     <div class="content">
@@ -77,6 +81,7 @@
         <p class="copyright">&copy Copyright All rights reserved.</p>
     </footer>
     <script src="home.js"></script>
+    <script src="nav.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
