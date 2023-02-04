@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 186, 186);
+}
+
+.content{
+    height: 80vh;
+}
+.content{
+    padding: 10vh 0vh 0vh 7vh;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-size: 60px;
+}
+.role{
+    font-size: 90px;
+}
+.desc{
+    font-size: 30px;
+}
+/* .content img{
+    opacity: 0.5;
+    position: absolute;
+    top: 0; right: 0;
+    height: 90vh;
+    height: 10px;
+} */
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff3434;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }

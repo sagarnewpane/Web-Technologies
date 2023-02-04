@@ -9,25 +9,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <header>
+    <header class="sticky">
         <h2 class="logo">Sagar <span>Newpane</span></h2>
-        <ul class="nav_links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="image.html">Images</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="#">References</a></li>
-        </ul>
-        <a class="contact" href="contact.html"><button>Contact</button></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="image.html">Images</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="#">References</a></li>
+            </ul>
+            <a class="contact" href="contact.html"><button>Contact</button></a>
+        </nav>
+        
     </header>
 
     <div class="content">
-        <div class="container">
+        <section class="about">
+
+        </section>
+        <p>How confident I am..</p>
+        <section class="container">
+            <div class="card">
+                <div class="percent" style="--clr:#ff6600;--num:100">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>100<span>%</span></h2>
+                        <p>HTML</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="percent" style="--clr:#ff6600;--num:100">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>100<span>%</span></h2>
+                        <p>HTML</p>
+                    </div>
+                </div>
+            </div>
             <div class="card">
                 <div class="percent" style="--clr:#04fc43;--num:100">
                     <div class="dot"></div>
@@ -41,10 +75,51 @@
                     </div>
                 </div>
             </div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
+            <div class="card">
+                <div class="percent" style="--clr:#04fc43;--num:100">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>100<span>%</span></h2>
+                        <p>HTML</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2012</div>
+                    <div class="timeline-content">
+                        <h3>timeline item title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur aspernatur voluptatum iusto, molestiae maxime. Quae minima quaerat at molestiae.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>timeline item title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur aspernatur voluptatum iusto, molestiae maxime. Quae minima quaerat at molestiae.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>timeline item title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur aspernatur voluptatum iusto, molestiae maxime. Quae minima quaerat at molestiae.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     
     <footer>
@@ -90,7 +165,9 @@
         </div>
         <p class="copyright">&copy Copyright All rights reserved.</p>
     </footer>
+    <script src="timeline.js"></script>
     <script src="home.js"></script>
+    <script src="nav.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

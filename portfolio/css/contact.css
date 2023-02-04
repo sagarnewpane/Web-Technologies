@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    padding: 50px 0px 0px 100px;
+    padding: 50px 0px 50px 50px;
     color: aliceblue;
     font-size: 2.5em;
 }
@@ -14,8 +14,11 @@ h1{
     grid-template-columns:repeat(2,1fr);
     height: 52vh;
 }
-.content .link{
-    padding: 30px 0px 0px 100px;
+.content .link ul{
+    display: inline-block;
+    padding: 30px 50px 10px 50px;
+    margin-left: 50px;
+    background-color: #222;
 }
 .content .link li p{
     cursor: pointer;
@@ -29,6 +32,7 @@ h1{
     list-style: none;
     font-size: 2em;
     padding: 20px 0px 0px 0px;
+    color: aliceblue;
 }
 .content .link-logo{
     text-align: center;
@@ -44,5 +48,6 @@ h1{
 }
 .content .link-logo p{
     color: aliceblue;
+    padding-right: 50px;
     padding-top: 20px;
 }
