@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(20, 17, 14);
+    background-color: #C179B9;
     /* background: rgb(230,10,10);
     background: linear-gradient(32deg, rgba(230,10,10,1) 36%, rgba(16,10,98,1) 100%); */
 }
 
 h1{
-    padding: 50px 0px 50px 50px;
-    color: aliceblue;
+    padding: 10vh 0px 50px 50px;
+    color: #2F242C;
     font-size: 2.5em;
 }
 .content {
@@ -14,11 +14,13 @@ h1{
     grid-template-columns:repeat(2,1fr);
     height: 52vh;
 }
+
 .content .link ul{
     display: inline-block;
     padding: 30px 50px 10px 50px;
     margin-left: 50px;
-    background-color: #222;
+    border-radius: 10px;
+    background-color: #502274;
 }
 .content .link li p{
     cursor: pointer;
@@ -26,7 +28,8 @@ h1{
 }
 .content .link li p:hover{
     transition: all 0.3s ease 0s;
-    color: rgb(235, 50, 17);
+    color: #C179B9;
+    transform: translateX(5px);
 }
 .content .link li{
     list-style: none;
@@ -36,6 +39,7 @@ h1{
 }
 .content .link-logo{
     text-align: center;
+    transition: all 4s ease-in;
 }
 
 .content .link-logo img{
@@ -47,7 +51,20 @@ h1{
     transform: scale(1.05);
 }
 .content .link-logo p{
-    color: aliceblue;
+    color: #2F242C;
     padding-right: 50px;
     padding-top: 20px;
+}
+
+/* scroll animation */
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }

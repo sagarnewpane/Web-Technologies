@@ -1,49 +1,63 @@
 body{
-    background-color: rgb(255, 186, 186);
+    background-color: #C179B9;
 }
 
 .content{
     height: 80vh;
+    display: flex;
 }
-.content{
-    padding: 10vh 0vh 0vh 7vh;
-    color: rgb(0, 0, 0);
+.content .left{
+    width: 60%;
+    padding: 15vh 0vh 0vh 7vh;
+    color: #2F242C;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 3rem;
+    margin-bottom: 30px;
 }
 .role{
-    font-size: 90px;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 30px;
 }
 .desc{
-    font-size: 30px;
+    font-size: 2rem;
 }
-/* .content img{
-    opacity: 0.5;
-    position: absolute;
-    top: 0; right: 0;
-    height: 90vh;
-    height: 10px;
-} */
+.content .left a{
+    text-decoration: none;
+    color: #502274;
+}
 
-/* scroll bar */
-/* width */
+.content .right{
+    width: 40%;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-10%);
+    transition: all 1s ;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000000;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #ff3434;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #ffffff;
-  }
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #ff3434;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #ffffff;
+}
