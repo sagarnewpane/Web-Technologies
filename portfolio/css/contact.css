@@ -12,7 +12,7 @@ h1{
 .content {
     display: grid;
     grid-template-columns:repeat(2,1fr);
-    height: 52vh;
+    height: 57vh;
 }
 
 .content .link ul{

@@ -37,6 +37,7 @@ footer ul{
     list-style: none;
 }
 footer ul li a{
+    display: block;
     color: #f3eaea;
     text-decoration: none;
 }
@@ -76,3 +77,17 @@ footer ul li a{
 }
 
     
+/* responsive */
+@media screen and (max-width:700px){
+    footer{
+        position: relative;
+        /* bottom: 0px; */
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5{
+        margin: 10px;
+        text-align: center;
+    }
+}

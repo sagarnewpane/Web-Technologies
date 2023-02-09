@@ -1,0 +1,138 @@
+body{
+    background-color: #C179B9;
+    line-height: 1.5;
+    margin-top: 10vh;
+    color: #2F242C;
+}
+.ref-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+.ref-content h1{
+    font-size: 2.5rem;
+    height: 150px;
+}
+.ref-content h2{
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.ref-content p{
+    font-size: 1.6rem;
+    margin: 50px;
+}
+footer{
+    width: 97.5vw;
+    overflow: hidden;
+}
+
+.site-inspiration,.timeline-inspiration ,.effect-inspiration{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+
+.footer-inspiration,.logo-site,.other{
+    margin-bottom: 200px;
+}
+
+.top,.other{
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.bottom img{
+    width: 50%;
+}
+.bottom p{
+    width: 50%;
+}
+
+.bottom .center-frame{
+    width: 50%;
+}
+.bottom .center-frame iframe{
+    width: 80%;
+    height: 350px;
+    border: none;
+}
+
+.center-frame{
+    display: flex;
+    align-items: center;
+}
+.timeline-inspiration .bottom .center-frame{
+    order: 2;
+}
+.timeline-inspiration .bottom p{
+    order: 1;
+}
+
+.footer-inspiration .bottom img{
+    order: 2;
+}
+.footer-inspiration .bottom p{
+    order: 1;
+}
+.logo-site{
+    text-align: center;
+}
+.logo-site a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #502274;
+}
+.logo-site a:hover{
+    transition: 0.2s ease 0s;
+    color: #EEB4B3;
+    transform: translateY(5px);
+}
+
+.other h4{
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+.other .site-links a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #502274;
+}
+.other .site-links a:hover{
+    transition: 0.2s ease 0s;
+    color: #EEB4B3;
+    transform: translateY(5px);
+}
+
+/* scroll animation */
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* responsive */
+/* 870 1550 */
+
+@media only screen and (max-width: 870px) {
+    .bottom{
+        flex-direction: column;
+    }
+    .bottom .center-frame iframe{
+        width: 100%;
+        /* height: 350px; */
+    }
+    
+  }

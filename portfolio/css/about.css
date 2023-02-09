@@ -19,6 +19,9 @@ body{
     padding-left: 50px;
     width: 60vw;
 }
+.about img{
+    width: 50%;
+}
 .info h3{
 
     font-size: 1.5rem;
@@ -86,4 +89,11 @@ body{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+/* respinsive */
+@media(max-width:870px){
+    .about{
+        height: 30vh;
+    }
 }

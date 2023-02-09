@@ -78,9 +78,9 @@
     line-height: 22px;
 }
 /* respinsive */
-@media(max-width:767px){
+@media(max-width:870px){
     .timeline-items::before{
-        left: 7px;
+        left: 10px;
     }
     .timeline-item:nth-child(odd){
         padding-right: 0;
@@ -91,6 +91,6 @@
         padding-left: 37px;
     }
     .timeline-dot{
-        left:0px;
+        left:3px;
     }
 }

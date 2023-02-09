@@ -17,6 +17,9 @@ header{
     align-items: center; 
     background: #502274;
 }
+.dropdown{
+    display: none;
+}
 .sticky{
     z-index: 100;
     position: fixed;
@@ -45,7 +48,8 @@ header nav{
 .logo{
     /* cursor: pointer; */
     color: #f3eaea;
-     margin-right: auto;
+    margin-left: 40px;
+    margin-right: auto;
  } 
 .logo span{
     color: #EEB4B3;
@@ -60,6 +64,7 @@ header nav{
     padding: 0px 15px;
 }
 .nav_links li a{
+    display: block;
     transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover{
@@ -80,4 +85,72 @@ header nav{
 .contact button:hover{
     background-color: #5a1179;
     color: rgba(255, 255, 255, 0.4);
+}
+
+/* responsive */
+
+@media only screen and (max-width: 810px){
+    .logo{
+        margin-left: 2vw;
+    }
+    .dropdown{
+        display: block;
+        cursor: pointer;
+        margin-right: 70px;
+    }
+    .dropdown .line{
+        width: 30px;
+        height: 3px;
+        background: #f3eaea;
+        margin: 6px 0;
+
+    }
+    header{
+        padding: 0 50px;
+    }
+
+    
+    .active{
+        height: 550px;
+    }
+
+    nav{
+        height: 0px;
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #502274;
+        transition: 0.3s ease ;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+    .active ul{
+        opacity: 1;
+    }
+    .contact{
+        margin-bottom: 40px;
+    }
+    .contact button{
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    nav ul a{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    nav ul:first-child{
+        margin-top: 40px;
+    }
+
 }

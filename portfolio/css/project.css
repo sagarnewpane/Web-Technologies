@@ -27,7 +27,7 @@ body{
     padding: 50px;
     padding-right: 0;
     display: flex;
-    height: 40vh;
+    height: fit-content;
     border-radius: 15px;
 }
 .project .p-img {
@@ -81,3 +81,35 @@ body{
     filter: blur(0);
     transform: translateX(0);
 }
+
+/* repsponsive */
+@media only screen and (max-width: 870px) {
+    .project-vh-container{
+        height: 50vh;
+    }
+    .project-container{
+        width: 90%;
+    }
+    .project{
+        flex-direction: column;
+        /* padding: 50px; */
+        padding-left: 0;
+        width: fit-content;
+    }
+    .project .p-img {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project .name-desc{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .project .name-desc .more{
+        text-align: center;
+    }
+  }
